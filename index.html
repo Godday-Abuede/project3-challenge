@@ -43,7 +43,7 @@
             <a class="nav-link" href="comparisons.html">Comparison</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="data.html">Data</a>
+            <a class="nav-link" href="data.html">Amazon Data Table</a>
           </li>
 
         </ul>
@@ -59,10 +59,11 @@
           <h3 class="title">Amazon Stock prices for March in 2020</h3>
           <hr>
           <img src="Images/adjustedclosingprice-model.png" class="vizualization rounded float-left" alt="adjusted close price history for March in 2020 Graph">
-          <p>We collected Amazon stock data, using yahoo finance which is a python library, and we created some python scripts to visualize the 
-             stock prices for the month of March, 2020.</p>
-          <p>We built a series of scatter plots using Matplotlib to compare three Support Vector's Regression models that best fits the data population from which the month of March data set were sampled. Our intent is to use the best fit model to predict next day (2020-03-31) opening price of Amazon stock.
-             Select any model from the top right corner to view the analysis of each model.</p>
+          <p>We used yahoo finance which is a python library to collect Amazon stock data from Nasdaq global electronic marketplace, and we created some python scripts to visualize the 
+             stock prices for the month of March, 2020, which we took as a sample from the entire Amazon stock data population.</p>
+          <p>We built a series of scatter plots using Matplotlib to compare three Support Vector's Regression models that best fits the sampled month of March data set. Our intent is to use the best fit model to make a supervised prediction of next day opening price of Amazon stock.
+             Supervised prediction in the sense, we fit the models to Amazon month of March, up to the 30th of March stock prices (train the machine with the data) to make best prediction. 
+             Select any model from the dropdown at top right corner to view the analysis of each model.</p>
       </div>
       </div>
       <div class="col-lg-5 col-md-12">
